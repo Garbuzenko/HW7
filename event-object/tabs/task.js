@@ -9,10 +9,6 @@ for (let i = 0; i < menu.length; i++) {
         if (counter >= 1) {
             tabActive.remove("tab_active");
             tabContentActive.remove("tab__content_active");
-            if (counter > 3) {
-                counter = 0;
-                tabContentActive = 0;
-            }
 
         }
         content[i].classList.add('tab__content_active');
